@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Together from "./Components/Together";
 import Login from "./Components/Login";
 import Joka from "./Components/Joka";
+// import Todo from "./Components/todo/Todo";
 
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
           <Route path="/newsection1" element={<Newsection1 />} />
           <Route path="/work" element={<Together />} />
           <Route path="/login" element={<Login />} />
-
+          {/* <Route path="/todo" element={<Todo/>}></Route> */}
         </Routes>
         <Joka />
       </Router >
